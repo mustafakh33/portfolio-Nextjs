@@ -37,7 +37,7 @@ const ResponsiveNav = () => {
       window.removeEventListener('scroll', handleScroll);
       window.removeEventListener('resize', handleResize);
     };
-  }, [showNav]);
+  }, [showNav, closeNavHandle]);
 
   return (
     <div className='relative z-50'>

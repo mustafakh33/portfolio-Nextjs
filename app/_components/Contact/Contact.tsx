@@ -45,7 +45,7 @@ const Contact = () => {
               className="space-y-6"
             >
               <h3 className="text-2xl font-bold text-white mb-6">
-                Let's talk about your project
+                Let&apos;s talk about your project
               </h3>
 
               <div className="space-y-4">

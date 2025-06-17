@@ -62,7 +62,7 @@ const Hero = React.memo(() => {
           >
             <motion.div variants={item}>
               <h2 className="text-lg md:text-xl lg:text-2xl mb-2 text-emerald-300 font-medium">
-                Hi, I'm
+                Hi, I&apos;m
               </h2>
             </motion.div>
 
