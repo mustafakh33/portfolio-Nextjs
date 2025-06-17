@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav__link {
+    @apply relative text-base text-gray-100 font-medium w-fit block 
+           after:block after:content-[''] after:absolute after:h-[3px] 
+           after:bg-emerald-400 after:w-full after:scale-x-0 
+           after:hover:scale-x-100 after:transition after:duration-300 
+           after:origin-right;
+  }
+  
+  .text-bg {
+    background-image: linear-gradient(to right, #10B981, #2DD4BF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #1F2937;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #34D399;
+    border-radius: 4px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #111827;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
