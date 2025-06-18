@@ -60,16 +60,17 @@ export const serviceData = [
     icon: "/images/service/s7.webp",
   },
 ];
+
 export const projectData = [
-  {
+    {
     id: 1,
-    image: "/images/project/Translation.png",
-    url: "https://translink-platform.vercel.app/", 
-    urlGithub: "https://github.com/mustafakh33/TransLink-Platform", 
-    Skills: ["React.js", "TypeScript", "Tailwind"],
-    title: "TransLink - Translation Services Platform",
+    image: "/images/project/ecommerce_nextjs.png",
+    url: "https://ecommerce-shope-nextjs.vercel.app/",
+    urlGithub: "https://github.com/mustafakh33/ecommerce_shope_nextjs",
+    Skills: ["Next Js", "Tailwind", "TypeScript", "Clerk", "Redux"],
+    title: "E-Commerce Shop",
     description:
-      "A professional web platform connecting users, companies, and translators. It offers instant, emergency, and document translation services with features like role-based dashboards, real-time chat, advanced search, and review systems.",
+      "E-Commerce Shop is an online store built with Next.js, Tailwind CSS, and TypeScript. It features account management using Clerk and state management with Redux, offering a modern and responsive design.",
   },
   {
     
@@ -106,12 +107,12 @@ export const projectData = [
   {
     id: 5,
     image: "/images/project/E-commerce.png",
-    url: "https://e-commerce-store-sigma-ruby.vercel.app/",
-    urlGithub: "https://github.com/mustafakh33/E-Commerce-Store",
-    Skills: ["React Js", "Bootstrap", "Redux", "RESTful APIs"],
-    title: "E-commerce website",
+    url: "https://shop-ease-modern-e-commerce-platfor.vercel.app/",
+    urlGithub: "https://github.com/mustafakh33/ShopEase-Modern-E-Commerce-Platform",
+    Skills: ["React.js", "TypeScript", "Tailwind", "Redux Toolkit", "RESTful API"],
+    title: "Ecommerce Store Platform",
     description:
-      "A modern, fully responsive e-commerce platform built with React, Bootstrap, Redux, and RESTful APIs. It provides a seamless shopping experience across all devices, allowing users to search for products, add them to the shopping cart, and save their favorites to a wishlist. The site features secure login, registration, and logout functionalities, ensuring a personalized and secure user experience. With a sleek, intuitive design, the platform makes online shopping easy and enjoyable.",
+    "A modern and responsive ecommerce platform featuring product browsing, categories, brands, add-to-cart, wishlist, authentication, payment integration, and order management. Built with React, Redux Toolkit, and RESTful APIs for a smooth and scalable user experience.",
   },
   {
     id: 6,
@@ -133,6 +134,16 @@ export const projectData = [
     description:
       "A data-driven admin dashboard built with React.js, FullCalendar, and Nivo Charts. It offers real-time data visualization with interactive charts and calendar functionalities, enabling administrators to manage and track information efficiently. The application provides a modern interface for managing dynamic content.",
   },
+    {
+    id: 8,
+    image: "/images/project/outstock.png",
+    url: "https://ecommerce-website-913f6.firebaseapp.com/index.html",
+    urlGithub: "https://github.com/mustafakh33/Outstock-Ecommerce-website-js",
+    Skills: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    title: "E-commerce website",
+    description:
+      "A modern e-commerce website built using HTML, CSS, JavaScript, and Bootstrap. This project features a responsive and user-friendly design, showcasing products with detailed descriptions, pricing, and images. Key functionalities include a shopping cart, product filtering, and an intuitive navigation system. The website is fully deployed and accessible online, offering a seamless shopping experience for users.",
+  },
   {
     id: 9,
     image: "/images/project/Islamic.png",
@@ -151,6 +162,56 @@ export const projectData = [
     Skills: ["HTML", "CSS", "JavaScript"],
     title: "Weather App",
     description: "A simple and interactive weather application built using HTML, CSS, and JavaScript. The app fetches real-time weather data from an external API and displays information such as temperature, humidity, wind speed, and weather conditions for a user-selected location. With a clean and responsive design, it provides an easy-to-use interface for checking weather updates on various devices.",
+  },
+    {
+    id: 11,
+    image: "/images/project/Restaurant.png",
+    url: "https://mustafakh33.github.io/Restoran-landing-page/",
+    urlGithub: "https://github.com/mustafakh33/Restoran-landing-page",
+    Skills: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    title: "Restaurant Landing Page",
+    description:
+      "A visually appealing restaurant landing page developed using HTML, CSS, JavaScript, and Bootstrap. The page is designed to engage visitors, showcasing the restaurant's services, menu, and contact information in a dynamic and user-friendly manner.",
+  },
+  {
+    id: 12,
+    image: "/images/project/Harly.png",
+    url: "https://mustafakh33.github.io/Harley-landing-page/",
+    urlGithub: "https://github.com/mustafakh33/Harley-landing-page",
+    Skills: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    title: "Harly Landing Page",
+    description:
+      "A dynamic landing page for a fictional Harley-Davidson-themed project, built with HTML, CSS, JavaScript, and Bootstrap. The page highlights the brand's offerings and provides an interactive and visually captivating experience for users.",
+  },
+    {
+    id: 13,
+    image: "/images/project/Darky.png",
+    url: "https://mustafakh33.github.io/Darky-landing-page/",
+    urlGithub: "https://github.com/mustafakh33/Darky-landing-page",
+    Skills: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    title: "Darky Landing Page",
+    description:
+      "A modern, responsive landing page designed using HTML, CSS, JavaScript, and Bootstrap. The page delivers an impressive user experience with smooth animations, a clean layout, and attention-grabbing design elements. It's fully responsive across devices, ensuring optimal usability.",
+  },
+  {
+    id: 14,
+    image: "/images/project/gaming.png",
+    url: "https://mustafakh33.github.io/Gaming-landing-page/",
+    urlGithub: "https://github.com/mustafakh33/Gaming-landing-page",
+    Skills: ["HTML", "CSS","Bootstrap"],
+    title: "Gaming Landing Page",
+    description:
+      "A visually appealing and responsive gaming landing page built using HTML, CSS, and Bootstrap. This project features a modern design, with sections for game details, promotional content, and call-to-action buttons. It is fully optimized for desktop and mobile views, offering a seamless experience across different devices. The page is designed to attract gamers with engaging visuals and interactive elements, ideal for promoting a gaming product or event.",
+  },
+    {
+    id: 15,
+    image: "/images/project/calculator.png",
+    url: "https://mustafakh33.github.io/Calculator/",
+    urlGithub: "https://github.com/mustafakh33/Calculator",
+    Skills: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    title: "Calculator",
+    description:
+      "A feature-rich e-commerce website built with HTML, CSS, JavaScript, and Bootstrap. This project includes a user-friendly interface for browsing products, adding them to the shopping cart, and proceeding to checkout. It also features product categories, detailed descriptions, and a responsive design that adapts to different screen sizes. The website is fully functional and deployed, offering an intuitive shopping experience on all devices.",
   },
 ];
 

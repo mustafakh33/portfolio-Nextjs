@@ -40,10 +40,6 @@ const ProjectsCard = ({ project, index = 0 }: Props) => {
 
       {/* Project content */}
       <div className="p-6">
-        {/* Folder icon */}
-        <div className="mb-4 text-emerald-400">
-          <FiFolder className="text-3xl" />
-        </div>
 
         {/* Project title and description */}
         <h3 className="text-xl font-bold text-white mb-2 group-hover:text-emerald-400 transition-colors">
