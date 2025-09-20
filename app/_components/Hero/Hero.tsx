@@ -5,7 +5,7 @@ import Link from "next/link";
 import { BaseInfo } from "./../../Data/data";
 import { FaDownload, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { motion, Variants } from "framer-motion";
-import { TypeAnimation } from 'react-type-animation';
+import { TypeAnimation } from "react-type-animation";
 import { FiArrowDown } from "react-icons/fi";
 
 const Hero = React.memo(() => {
@@ -17,8 +17,8 @@ const Hero = React.memo(() => {
       transition: {
         staggerChildren: 0.1,
         delayChildren: 0.3,
-      }
-    }
+      },
+    },
   };
 
   const item: Variants = {
@@ -29,11 +29,10 @@ const Hero = React.memo(() => {
       transition: {
         type: "spring",
         damping: 12,
-        stiffness: 100
-      }
-    }
+        stiffness: 100,
+      },
+    },
   };
-  
 
   return (
     <section
@@ -62,7 +61,7 @@ const Hero = React.memo(() => {
           >
             <motion.div variants={item}>
               <h2 className="text-lg md:text-xl lg:text-2xl mb-2 text-emerald-300 font-medium">
-                Hi, I&apos;m
+                Hi,
               </h2>
             </motion.div>
 
@@ -82,7 +81,7 @@ const Hero = React.memo(() => {
                   "UI/UX Interface Designer",
                   1000,
                   "Building Modern Web Apps",
-                  1000
+                  1000,
                 ]}
                 wrapper="span"
                 cursor={true}
@@ -119,7 +118,11 @@ const Hero = React.memo(() => {
 
               <div className="flex gap-4">
                 {BaseInfo.github && (
-                  <Link href={BaseInfo.github} target="_blank" rel="noopener noreferrer">
+                  <Link
+                    href={BaseInfo.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <motion.div
                       whileHover={{ y: -3 }}
                       className="p-3 bg-gray-800 rounded-full hover:bg-emerald-600 transition-colors duration-300"
@@ -129,7 +132,11 @@ const Hero = React.memo(() => {
                   </Link>
                 )}
                 {BaseInfo.linkedin && (
-                  <Link href={BaseInfo.linkedin} target="_blank" rel="noopener noreferrer">
+                  <Link
+                    href={BaseInfo.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <motion.div
                       whileHover={{ y: -3 }}
                       className="p-3 bg-gray-800 rounded-full hover:bg-blue-600 transition-colors duration-300"
@@ -139,7 +146,11 @@ const Hero = React.memo(() => {
                   </Link>
                 )}
                 {BaseInfo.twitter && (
-                  <Link href={BaseInfo.twitter} target="_blank" rel="noopener noreferrer">
+                  <Link
+                    href={BaseInfo.twitter}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <motion.div
                       whileHover={{ y: -3 }}
                       className="p-3 bg-gray-800 rounded-full hover:bg-sky-500 transition-colors duration-300"
@@ -153,10 +164,7 @@ const Hero = React.memo(() => {
           </motion.div>
 
           {/* Image Content */}
-          <motion.div
-            className="order-1 lg:order-2 relative"
-            variants={item}
-          >
+          <motion.div className="order-1 lg:order-2 relative" variants={item}>
             <div className="flex justify-center relative">
               <motion.div
                 initial={{ scale: 0.9 }}
@@ -165,7 +173,7 @@ const Hero = React.memo(() => {
                   type: "spring",
                   damping: 10,
                   stiffness: 100,
-                  delay: 0.2
+                  delay: 0.2,
                 }}
                 className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96"
               >
@@ -176,7 +184,6 @@ const Hero = React.memo(() => {
                   priority
                   className="rounded-full object-cover border-4 border-emerald-500/30 shadow-2xl"
                 />
-
               </motion.div>
             </div>
           </motion.div>
